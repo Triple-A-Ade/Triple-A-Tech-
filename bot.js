@@ -1,4 +1,4 @@
-import makeWASocket, { useMultiFileAuthState } from '@adiwajshing/baileys';
+import { default as makeWASocket, useMultiFileAuthState } from '@whiskeysockets/baileys';
 import fs from 'fs';
 import fetch from 'node-fetch';
 
